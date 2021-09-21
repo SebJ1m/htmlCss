@@ -1,0 +1,68 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cabecera p
+{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.izquierda
+{
+    margin-left: 85vw;
+}
+.lateral
+{
+    display: inline-block;
+    height: 100%
+    
+    
+}
+
+.princ
+{
+    height: 90vh;
+    background-color: seagreen;
+}
+
+.caja
+{
+    display: block;
+    margin: 20px 5px;
+    padding: 10px;
+   
+    
+}
+
+.caja span
+{
+    display: inline-block;
+    display: block;
+    margin: 25px 5px;
+    padding: 50px;
+    height: 15vh;
+    background-color: hotpink;
+    border-radius: 4px;
+}
+
+
+.contenido
+{
+    position: absolute;
+    display: inline-block;
+    
+    
+}
+.parrafo
+{   
+    text-align:center;
+}
+.pie
+{
+    text-align: center;
+    background-color: orange;
+}

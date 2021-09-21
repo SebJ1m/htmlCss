@@ -1,0 +1,51 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.arriba
+{
+    
+    border-radius: 4px;
+    background-color: red;
+    z-index: 2;
+    width: 20vw;
+    min-width: 100px;
+    height: 12vh;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    border: 2px black solid ;
+    position: relative;
+    
+}
+
+.arriba .parrafo
+{
+    position: relative;
+    top: 4vh;
+}
+
+.abajo
+{
+    
+    z-index: 1;
+    width: 50vw;
+    min-width: 444px;
+    height: 40vh;
+    
+    margin: 0 auto;
+    position: relative;
+    bottom: 20px;
+    border: double;
+}
+
+.abajo .texto
+{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
